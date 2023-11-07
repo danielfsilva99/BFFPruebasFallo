@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
-
 using Microsoft.Data.SqlClient;
 
 namespace Servicio.Contexto
@@ -20,7 +19,6 @@ namespace Servicio.Contexto
         {
             get
             {
-
                 return new SqlConnection(connectionString);
             }
 
